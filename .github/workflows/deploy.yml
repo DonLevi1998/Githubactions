@@ -21,12 +21,12 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload site
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: './frontend' 
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v3
 
 
 
